@@ -16,9 +16,9 @@ p {
   line-height: 2rem;
 }
 
-.material-icons {
+/* .material-icons {
   color: white;
-}
+} */
 .page-icons {
   color: black;
 }
@@ -41,7 +41,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -72,6 +72,39 @@ p {
     font-size: 40px;
   }
 
+  .bordThree {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+  }
+  .bordBottom {
+    border-bottom: 1px solid silver;
+  }
+  .bordSides {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+  }
+
+  .skills-box {
+    background-color: white;
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+  }
+.far,
+.fas {
+  color: black;
+  font-size: 50px;
+}
+  /* .box-info {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }  */
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -80,9 +113,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  .parallax-container {
+  /* .parallax-container {
     min-height: 100vh;
-  }
+  } */
 
 }
 
@@ -98,17 +131,17 @@ p {
 .icon-block .material-icons {
   font-size: inherit;
 }
-.parallax-container {
+/* .parallax-container {
   min-height: 380px;
-}
+} */
 
 footer.page-footer {
   margin: 0;
 }
 @media only screen and (min-width : 992px) {
-.parallax-container {
+/* .parallax-container {
   min-height: 110vh;
-}
+} */
 }
 @media only screen and (min-width : 800px) {
   .composerContainer {
