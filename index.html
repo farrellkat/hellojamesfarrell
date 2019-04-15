@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="navbar-fixed">
+  <!-- <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper" style="background-color:black;">
         <a href="#index-banner" class="brand-logo white-text">James Farrell</a>
@@ -30,17 +30,17 @@
         </ul>
       </div>
     </nav>
-  </div>
+  </div> -->
 
-  <ul class="sidenav" id="mobile-demo">
+  <!-- <ul class="sidenav" id="mobile-demo">
     <li><a href="#aboutMe"><i class="material-icons">person_pin</i>About Me</a></li>
     <li><a href="#coderSection"><i class="material-icons">computer</i>Coder</a></li>
     <li><a href="#producerSection"><i class="material-icons">volume_up</i>Producer</a></li>
     <li><a href="#composerSection"><i class="material-icons">create</i>Composer</a></li>
     <li><a href="#contact"><i class="material-icons">email</i>Contact Me</a></li>
-  </ul>
+  </ul> -->
 
-  <div class="fixed-action-btn">
+  <!-- <div class="fixed-action-btn">
     <a class="btn-floating btn-large red">
       <i class="large material-icons">lightbulb_outline</i>
     </a>
@@ -54,7 +54,7 @@
       <li><a class="btn-floating blue" href="mailto:jamesfarrellmusic@gmail.com" target="_top"><i
             class="material-icons">email</i></a></li>
     </ul>
-  </div>
+  </div> -->
 
   <header class="container center" style="margin-top: 5em">
     <h4>James Farrell</h4>
@@ -108,7 +108,7 @@
       <div class="row s12 m12 l12 skills-holder bordBottom">
         <div class="col s12 m6 l4">
           <div class="card skillCards" data-aos="fade-in" data-aos-duration="2000">
-            <div class="card-image skill-card-image skills-img">
+            <div class="card-image skills-img center">
               <img src="img/mobileHeart.svg">
             </div>
             <div class="card-content">
@@ -119,7 +119,7 @@
         </div>
         <div class="col s12 m6 l4">
           <div class="card skillCards" data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000">
-            <div class="card-image skill-card-image skills-img">
+            <div class="card-image skills-img">
               <img src="img/calendar.svg">
             </div>
             <div class="card-content">
@@ -131,7 +131,7 @@
         </div>
         <div class="col s12 m6 l4">
           <div class="card skillCards" data-aos="fade-in" data-aos-delay="200" data-aos-duration="2000">
-            <div class="card-image skill-card-image skills-img">
+            <div class="card-image skills-img">
               <img src="img/lightbulb.svg">
             </div>
             <div class="card-content">
@@ -144,7 +144,7 @@
       <div class="row s12 m12 l12 skills-holder">
         <div class="col s12 m6 l4">
           <div class="card skillCards" data-aos="fade-in" data-aos-duration="2000">
-            <div class="card-image skill-card-image skills-img">
+            <div class="card-image skills-img">
               <img src="img/mag2.svg">
             </div>
             <div class="card-content">
@@ -155,8 +155,8 @@
         </div>
         <div class="col s12 m6 l4">
           <div class="card skillCards" data-aos="fade-in" data-aos-delay="200" data-aos-duration="2000">
-            <div class="card-image skill-card-image skills-img">
-              <img src="img/codeBrain.svg" style="width:90%" />
+            <div class="card-image skills-img">
+              <img src="img/codeBrain.svg" class ="brain"/>
             </div>
             <div class="card-content">
               <span class="card-title">Always learning</span>
@@ -167,8 +167,8 @@
           </div>
           <div class="col s12 m6 l4">
             <div class="card skillCards" data-aos="fade-in" data-aos-delay="400" data-aos-duration="2000">
-              <div class="card-image skill-card-image skills-img">
-                <img src="img/gearPeople.svg">
+              <div class="card-image skills-img">
+                <img src="img/gearPeople.svg" style="width: 100%;">
               </div>
               <div class="card-content">
                 <span class="card-title">Cooperation</span>
@@ -181,9 +181,9 @@
         </div>
 
 
-    <div class="parallax-container valign-wrapper" style="height: 50em; display: flex; justify-content: center">
+    <div class="parallax-container nashvilleParallax valign-wrapper" style="display: flex; justify-content: center">
       <div class="parallax hide-on-small-and-down"><img src="img/katy-belcher-342066-unsplash.jpg"></div>
-      <p style="opacity: .5; position: absolute; bottom: 0; right: 10px">Photo by Katy Belcher on Unsplash</p>
+      <p class="hide-on-small-and-down" style="opacity: .5; position: absolute; bottom: 0; right: 10px">Photo by Katy Belcher on Unsplash</p>
       <div class="twitterContainer" style="display: flex;">
         <a class="twitter-timeline" data-width="400" data-height="400" data-theme="light"
           href="https://twitter.com/jamesfarrell?ref_src=twsrc%5Etfw">Tweets by jamesfarrell</a>
@@ -191,7 +191,7 @@
       </div>
     </div>
 
-    <div class="section container center white aboutMe" data-aos="fade-left" data-aos-duration="2000">
+    <div class="section container white aboutMe" data-aos="fade-left" data-aos-duration="2000">
       <div class="row">
         <div class="col s12">
           <div class="card">
@@ -202,7 +202,7 @@
         </div>
       </div>
       <div class="aboutMeContainer" data-aos="fade-right" data-aos-duration="1200" id="aboutMe">
-        <h2 class="header center">About Me</h2>
+        <h2 class="header" style="text-align: center;">About Me</h2>
         <p class="grey-text text-darken-3 lighten-3">
           Before I was a developer, I was a musician.
           I wasn’t a famous frontman. I didn’t headline.
@@ -216,8 +216,8 @@
       </div>
     </div>
 
-    <div class="parallax-container valign-wrapper"
-      style="height: 50em; display: flex; justify-content: center; flex-direction: column">
+    <div class="parallax-container spotifyParallax valign-wrapper"
+      style="display: flex; justify-content: center; flex-direction: column">
       <div class="parallax hide-on-small-and-down"><img src="img/deak-laslo-225353-unsplash.jpg"></div>
       <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center">
         <div class="twitterContainer" style="flex-direction: col; margin-left: 10px; background-color: black">
@@ -225,7 +225,7 @@
             height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
       </div>
-      <p style="opacity: .5; position: absolute; bottom: 0; right: 10px; color:black">Photo by Deak Laslo on Unsplash
+      <p class="hide-on-small-and-down" style="opacity: .5; position: absolute; bottom: 0; right: 10px; color:black">Photo by Deak Laslo on Unsplash
       </p>
     </div>
 
