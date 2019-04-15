@@ -72,22 +72,9 @@ p {
     font-size: 40px;
   }
 
-  .bordThree {
-    border-right: 1px solid silver;
-    border-left: 1px solid silver;
-    border-bottom: 1px solid silver;
-  }
-  .bordBottom {
-    border-bottom: 1px solid silver;
-  }
-  .bordSides {
-    border-right: 1px solid silver;
-    border-left: 1px solid silver;
-  }
-
   .skills-box {
     background-color: white;
-    width: 33%;
+    /* width: 300px; */
     height: auto;
     padding: 10px;
     display: inline-block;
@@ -107,13 +94,26 @@ p {
 .twitterContainer{
   border: 3px solid #2b7bb9;
   border-radius: 8px;
+  margin: 0em 1em;
 }
-  /* .box-info {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-  }  */
 
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+
+/* .skill-card-image {
+  max-width: 250px;
+} */
+.skillCards {
+  min-height: 550px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -123,10 +123,6 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  /* .parallax-container {
-    min-height: 100vh;
-  } */
-
 }
 
 @media only screen and (max-width : 600px) {
@@ -135,31 +131,23 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-/* .parallax-container {
-  min-height: 380px;
-} */
-
-footer.page-footer {
-  margin: 0;
-}
 @media only screen and (min-width : 992px) {
-/* .parallax-container {
-  min-height: 110vh;
-} */
+
 }
 @media only screen and (min-width : 800px) {
-  .composerContainer {
-    min-height: 35em;
+  .skills-box {
+  width: 300px;
   }
-}
-@media only screen and (max-width : 450px) {
-  .composerContainer {
-    min-height: 17em;
+  /* .bordBottom {
+    border-bottom: 1px solid silver;
   }
+  .bordSides {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+  }
+  .bordThree {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+  } */
 }
