@@ -16,9 +16,9 @@ p {
   line-height: 2rem;
 }
 
-.material-icons {
+/* .material-icons {
   color: white;
-}
+} */
 .page-icons {
   color: black;
 }
@@ -41,7 +41,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -72,6 +72,65 @@ p {
     font-size: 40px;
   }
 
+  /* .skills-box {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+  } */
+
+  .brain{
+    width: 95%;
+    margin: auto;
+    padding: 22px;
+  }
+  .skills-img:hover {
+    transform: scale(1.2);
+    animation: yourAnimation .4s 1 0s linear;
+  }
+  .skills-img{
+    height: 240px;
+    width: 240px;
+    margin: auto;
+  }
+
+.far,
+.fas {
+  color: black;
+  font-size: 50px;
+}
+
+.twitterContainer{
+  border: 3px solid #2b7bb9;
+  border-radius: 8px;
+  margin: 0em 1em;
+}
+
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+
+/* .skill-card-image {
+  max-width: 250px;
+} */
+.skillCards {
+  min-height: 32em;
+}
+
+.nashvilleParallax,
+.spotifyParallax {
+  margin-bottom: 1em;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -80,10 +139,6 @@ p {
   #index-banner .section {
     top: 10%;
   }
-  .parallax-container {
-    min-height: 100vh;
-  }
-
 }
 
 @media only screen and (max-width : 600px) {
@@ -92,31 +147,30 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-.parallax-container {
-  min-height: 380px;
-}
-
-footer.page-footer {
-  margin: 0;
-}
 @media only screen and (min-width : 992px) {
-.parallax-container {
-  min-height: 110vh;
-}
+
 }
 @media only screen and (min-width : 800px) {
-  .composerContainer {
-    min-height: 35em;
+  .skills-box {
+  width: 300px;
   }
+.nashvilleParallax,
+.spotifyParallax {
+  height: 50em;
+  margin-bottom: 0em;
 }
-@media only screen and (max-width : 450px) {
-  .composerContainer {
-    min-height: 17em;
+
+
+  /* .bordBottom {
+    border-bottom: 1px solid silver;
   }
+  .bordSides {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+  }
+  .bordThree {
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+  } */
 }
