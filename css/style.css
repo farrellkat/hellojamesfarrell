@@ -171,7 +171,9 @@ p {
   height: 50em;
   margin-bottom: 0em;
 }
-
+.caseWireframeContainer {
+  height: 50em;
+}
 
   /* .bordBottom {
     border-bottom: 1px solid silver;
