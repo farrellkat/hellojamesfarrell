@@ -131,6 +131,18 @@ p {
   margin-bottom: 1em;
 }
 
+.caseArticle {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 2px 2px 9px #dedbdb;
+  padding: 0.5em;
+
+}
+
+.caseFa {
+  color: #95d4cc;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
