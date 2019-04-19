@@ -150,15 +150,6 @@ p {
   z-index: 1000;
 }
 
-.fixed-action-btn {
-  position: fixed;
-  right: 90px;
-  bottom: 23px;
-  padding-top: 15px;
-  margin-bottom: 0;
-  z-index: 997;
-}
-
 .socialIcons {
   color: black;
 }
