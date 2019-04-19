@@ -154,6 +154,21 @@ p {
   color: black;
 }
 
+.introHeader {
+  font-family: 'Source Serif Pro', serif;
+}
+.introSubHeader {
+  font-family: 'lato', sans-serif;
+}
+.introSubFooter {
+  font-family: 'lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: .05em;
+}
+.introContainer {
+  margin: 0px 50px 0px 50px;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -171,20 +186,23 @@ p {
 }
 
 @media only screen and (min-width : 992px) {
+  .introContainer {
+    margin: 0px 400px 0px 400px;
+  }
 
 }
 @media only screen and (min-width : 800px) {
   .skills-box {
-  width: 300px;
+    width: 300px;
   }
-.nashvilleParallax,
-.spotifyParallax {
-  height: 50em;
-  margin-bottom: 0em;
-}
-.caseWireframeContainer {
-  height: 50em;
-}
+  .nashvilleParallax,
+  .spotifyParallax {
+    height: 50em;
+    margin-bottom: 0em;
+  }
+  .caseWireframeContainer {
+    height: 50em;
+  }
 
   /* .bordBottom {
     border-bottom: 1px solid silver;

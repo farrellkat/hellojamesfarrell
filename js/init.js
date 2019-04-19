@@ -3,7 +3,9 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-    $('.scrollspy').scrollSpy();
+    $('.scrollspy').scrollSpy({
+            scrollOffset:90
+        });
     $('.carousel').carousel();
     $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider();
