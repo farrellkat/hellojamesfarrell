@@ -140,7 +140,8 @@ p {
 }
 
 .caseFa {
-  color: #95d4cc;
+  color: #ffbe89;
+  padding: 50px;
 }
 
 .headerLinkContainer {
@@ -156,9 +157,11 @@ p {
 
 .introHeader {
   font-family: 'Source Serif Pro', serif;
+
 }
 .introSubHeader {
   font-family: 'lato', sans-serif;
+  color: lightgray;
 }
 .introSubFooter {
   font-family: 'lato', sans-serif;
@@ -167,6 +170,7 @@ p {
 }
 .introContainer {
   margin: 0px 50px 0px 50px;
+
 }
 
 @media only screen and (max-width : 992px) {
@@ -202,6 +206,11 @@ p {
   }
   .caseWireframeContainer {
     height: 50em;
+  }
+
+  #caseBorder {
+    border: 5px solid black;
+    margin: 30px 40px 30px 40px;
   }
 
   /* .bordBottom {
