@@ -9,6 +9,7 @@
     $('.carousel').carousel();
     $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider();
+    $('.materialboxed').materialbox();
     $(function(){
       var stickyHeaderTop = $('#stickytypeheader').offset().top;
 
